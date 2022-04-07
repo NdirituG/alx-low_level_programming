@@ -1,4 +1,7 @@
-/*selecta shong'e*/
+/*
+ * selecta shong'e
+ * this one uses puts function
+ */
 #include <stdio.h>
 
 int main(void)

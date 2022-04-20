@@ -11,6 +11,7 @@ void print_rev(char *s)
 	{
 		if (*(s + len) == '\0')
 			break;
+
 		len++;
 	}
 	

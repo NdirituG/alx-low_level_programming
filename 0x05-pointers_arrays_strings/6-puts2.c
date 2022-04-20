@@ -1,4 +1,4 @@
-#include "main."
+#include "main.h"
 /**
  * puts2 - Function that prints one char out of 2 of a string
  * @str: String to be used
@@ -9,7 +9,7 @@ void puts2(char *str)
 
 	while (1)
 	{
-		if(str[len] == '\0')
+		if (str[len] == '\0')
 			break;
 
 		len++;

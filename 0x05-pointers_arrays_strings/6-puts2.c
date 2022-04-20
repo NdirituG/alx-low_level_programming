@@ -1,22 +1,22 @@
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
+
 /**
  * puts2 - Function that prints one char out of 2 of a string
  * @str: String to be used
  */
 void puts2(char *str)
 {
-	int i = 0, len = 0;
+	int i;
 
-	while (1)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (str[len] == '\0')
-			break;
-
-		len++;
+		if (i % 2 == 0)
+		{
+			putchar(str[i]);
+		}
 	}
 
-	for (i = 0; i < len; i += 2)
-		_putchar(*(str + 1));
-
-	_putchar(10);
+	putchar('\n');
 }

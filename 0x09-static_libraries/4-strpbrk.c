@@ -1,3 +1,3 @@
 #include "main.h"
-char *_strpbrk(cha *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {}

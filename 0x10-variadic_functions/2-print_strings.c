@@ -28,7 +28,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			if (separator)
 				printf("%s", separator);
 	}
-	
+
 	printf("\n");
 	va_end(valist);
 }
